@@ -7,10 +7,10 @@ public class diapositiva9 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		
-		int contador = 1;
+		int contador = 0;
 		int suma = 0; 
 		
-		while (contador <= 10) {
+		while (contador <= 9) {
 			System.out.println("Introduze un numero");
 			int numero = sc.nextInt();
 			suma = suma + numero;
@@ -18,7 +18,7 @@ public class diapositiva9 {
 		}
 		
 		int promedio = suma / 10;
-		System.out.printf("El promedio de sus sumas es de %d \n", promedio);
+		System.out.printf("La suma de los numeros es %d y el promedio de sus sumas es de %d. \n", suma, promedio);
 
 	}
 
