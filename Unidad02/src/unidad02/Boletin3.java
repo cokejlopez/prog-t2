@@ -34,4 +34,15 @@ public class Boletin3 {
 		}
 		return resultado;
 	}
+	
+	public static boolean esPrimo(int n) {
+		if (n < 2) {
+			return false;
+		}
+		for (int div = 2; div < 2; div ++) {
+			if(n % div == 0)
+			return true;
+		}
+		return false;
+	}
 }
