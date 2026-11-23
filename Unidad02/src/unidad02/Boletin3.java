@@ -34,4 +34,9 @@ public class Boletin3 {
 		}
 		return resultado;
 	}
+	
+	public static boolean esCapicua(int n) {
+		return (voltea(n) == n);
+	}
+	
 }
